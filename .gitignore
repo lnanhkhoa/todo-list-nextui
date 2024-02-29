@@ -29,5 +29,10 @@ yarn-error.log*
 .env.production.local
 !packages/database/.env
 
+# dot-env
+.env
+
+
+
 # turbo
 .turbo

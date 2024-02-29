@@ -1,4 +1,4 @@
-import { prisma } from ".";
+import { prisma } from "./client";
 
 import type { User } from "@prisma/client";
 
@@ -24,8 +24,8 @@ const DEFAULT_USERS = [
           create: {
             ...user,
           },
-        })
-      )
+        }),
+      ),
     );
   } catch (error) {
     console.error(error);
