@@ -21,10 +21,10 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "eslint": "^8.56.0",
     "prisma": "^5.7.1",
     "rimraf": "^5.0.5",
-    "@repo/typescript-config": "*",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }
